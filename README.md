@@ -24,10 +24,10 @@ This repository contains everything you need to run and develop your app.
     npm install
     ```
 
-2.  **Set the Gemini API Key:**
-    The AI analysis feature requires the `GEMINI_API_KEY`. Set this key in a file named `.env.local` in the root of your project. The Vite configuration handles making this available to the app.
+2.  **Set the LLM API Key:**
+    The AI analysis feature requires the `AI_API_KEY`. Set this key in a file named `.env.local` in the root of your project. The Vite configuration handles making this available to the app.
     ```
-    GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
+    AI_API_KEY="YOUR_AI_API_KEY"
     ```
 
 3.  **Run the app:**
